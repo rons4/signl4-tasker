@@ -1,0 +1,28 @@
+# Tasker Examples
+
+This is just a repo where I share some Tasker files.
+
+Discplaimer: No guarantee if this works. Please use at own risk.
+
+## Floating Button
+
+Some time ago I searched for a way to get floating buttons work with Tasker. There are some ways but I did not really found a nice approach.
+Now, I (together with ChatGPT) was able to create a nice floating button (bubble) using Tasker's Java code support.
+
+This is how it looks like: https://youtube.com/shorts/1DSYow3Y1xM
+
+And here is the Java code for showing the button:
+
+And here for closing the button again:
+
+## Usage
+
+Put the first Java action into one task. This one will show the button. The second Java code can go into a second action to close the button.
+
+The Java code sends two intents:
+- On tab: com.example.MY_BUBBLE
+- On long tab: com.example.MY_BUBBLE_LONG
+
+You can use Tasker profiles to do whatever you want. In my case, I send a SIGNL4 alert it the button is pressed and I close the button if the button is long pressed.
+
+Attention: This is just a quick example with no guarantee that it works as expected. Also, you might want to adapt the code to add other or additional functionality.
