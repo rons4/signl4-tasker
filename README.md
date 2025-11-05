@@ -12,8 +12,10 @@ Now, I (together with ChatGPT) was able to create a nice floating button (bubble
 This is how it looks like: https://youtube.com/shorts/1DSYow3Y1xM
 
 And here is the Java code for showing the button:
+https://raw.githubusercontent.com/rons4/signl4-tasker/refs/heads/main/tasker-show-floating-button.java
 
 And here for closing the button again:
+https://raw.githubusercontent.com/rons4/signl4-tasker/refs/heads/main/tasker-close-floating-button.java
 
 ## Usage
 
