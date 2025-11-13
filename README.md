@@ -1,6 +1,6 @@
 # Tasker Examples
 
-This is just a repo where I share some Tasker files.
+This is just a repo where I share some Tasker files. It is mainly indended to show integration capabilities in conjunction with [SIGNL4](https://www.signl4.com/) for reliable mobile alerting.
 
 Discplaimer: No guarantee if this works. Please use at own risk.
 
@@ -28,3 +28,11 @@ The Java code sends two intents:
 You can use Tasker profiles to do whatever you want. In my case, I send a SIGNL4 alert it the button is pressed and I close the button if the button is long pressed.
 
 Attention: This is just a quick example with no guarantee that it works as expected. Also, you might want to adapt the code to add other or additional functionality.
+
+## MQTT Messages
+
+This is a simple Jave code to send MQTT messages to an MQTT broker from Tasker:
+https://raw.githubusercontent.com/rons4/signl4-tasker/refs/heads/main/tasker-send-mqtt.java
+
+Note the configuration section to adapt IP, port and MQTT topic. the Tasker variable %mptt_value vontains the value to send.
+
