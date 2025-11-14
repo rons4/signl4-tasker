@@ -1,6 +1,6 @@
 # Tasker Examples
 
-This is just a repo where I share some Tasker files. It is mainly indended to show integration capabilities in conjunction with [SIGNL4](https://www.signl4.com/) for reliable mobile alerting.
+This is just a repo where I share some [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) files. It is mainly indended to show integration capabilities in conjunction with [SIGNL4](https://www.signl4.com/) for reliable mobile alerting.
 
 Discplaimer: No guarantee if this works. Please use at own risk.
 
@@ -31,8 +31,10 @@ Attention: This is just a quick example with no guarantee that it works as expec
 
 ## MQTT Messages
 
-This is a simple Jave code to send MQTT messages to an MQTT broker from Tasker:
+This is a simple Jave code to send MQTT messages to an MQTT broker from Tasker:  
 https://raw.githubusercontent.com/rons4/signl4-tasker/refs/heads/main/tasker-send-mqtt.java
+
+It can be used for example to integrate your android phone via Tasker with [Node-RED](https://nodered.org/).
 
 Note the configuration section to adapt IP, port and MQTT topic. the Tasker variable %mptt_value vontains the value to send.
 
